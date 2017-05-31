@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="31" failures="0" name="com.sg.superherosightings.service.ServiceImplTest" time="9.82" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_131\jre\bin"/>
+    <property name="java.vm.version" value="25.131-b11"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\Thuan\Documents\GitHub\Software-Guild-Presentation\GitHubRepository\9_10_Super Hero Sightings\SuperHeroSightings"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\Thuan\Documents\GitHub\Software-Guild-Presentation\GitHubRepository\9_10_Super Hero Sightings\SuperHeroSightings"/>
+    <property name="java.runtime.version" value="1.8.0_131-b11"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_131\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\Thuan\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="maven.ext.class.path" value="C:\Program Files\NetBeans 8.2\java\maven-nblib\netbeans-eventspy.jar"/>
+    <property name="classworlds.conf" value="C:\Program Files\apache-maven-3.5.0\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_131\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk1.8.0_131\bin;C:\Program Files\apache-maven-3.5.0\bin;C:\Program Files (x86)\PuTTY\;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Users\Thuan\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\Microsoft VS Code\bin;."/>
+    <property name="maven.conf" value="C:\Program Files\apache-maven-3.5.0\bin\../conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:\Program Files\apache-maven-3.5.0\bin\..\lib\jansi-native\windows64"/>
+    <property name="user.home" value="C:\Users\Thuan"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="Thuan"/>
+    <property name="java.class.path" value="C:\Program Files\apache-maven-3.5.0\bin\..\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_131\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Dmaven.ext.class.path=C:\Program Files\NetBeans 8.2\java\maven-nblib\netbeans-eventspy.jar clean install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_131"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_131\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_131\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_131\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Program Files\apache-maven-3.5.0\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="com.sg.superherosightings.service.ServiceImplTest" name="addGetOrganization" time="0.515"/>
+  <testcase classname="com.sg.superherosightings.service.ServiceImplTest" name="deleteSighting" time="0.475"/>
+  <testcase classname="com.sg.superherosightings.service.ServiceImplTest" name="getAllHeroAndPower" time="0.414"/>
+  <testcase classname="com.sg.superherosightings.service.ServiceImplTest" name="deleteAddress" time="0.253"/>
+  <testcase classname="com.sg.superherosightings.service.ServiceImplTest" name="addGetSighting" time="0.425"/>
+  <testcase classname="com.sg.superherosightings.service.ServiceImplTest" name="deleteHeroPower" time="0.203"/>
+  <testcase classname="com.sg.superherosightings.service.ServiceImplTest" name="deletePower" time="0.155"/>
+  <testcase classname="com.sg.superherosightings.service.ServiceImplTest" name="deleteMember" time="0.394"/>
+  <testcase classname="com.sg.superherosightings.service.ServiceImplTest" name="addUpdateSighting" time="0.201"/>
+  <testcase classname="com.sg.superherosightings.service.ServiceImplTest" name="getAllHeroes" time="0.365"/>
+  <testcase classname="com.sg.superherosightings.service.ServiceImplTest" name="getAllAddresses" time="0.307"/>
+  <testcase classname="com.sg.superherosightings.service.ServiceImplTest" name="getAllSightings" time="0.367"/>
+  <testcase classname="com.sg.superherosightings.service.ServiceImplTest" name="addGetHeroPowerByPowerIdandByHeroId" time="0.371"/>
+  <testcase classname="com.sg.superherosightings.service.ServiceImplTest" name="getAllPowers" time="0.245"/>
+  <testcase classname="com.sg.superherosightings.service.ServiceImplTest" name="addUpdateHero" time="0.392"/>
+  <testcase classname="com.sg.superherosightings.service.ServiceImplTest" name="deleteLocation" time="1.062"/>
+  <testcase classname="com.sg.superherosightings.service.ServiceImplTest" name="addGetAddress" time="0"/>
+  <testcase classname="com.sg.superherosightings.service.ServiceImplTest" name="deleteOrganization" time="0"/>
+  <testcase classname="com.sg.superherosightings.service.ServiceImplTest" name="addUpdatePower" time="0.018"/>
+  <testcase classname="com.sg.superherosightings.service.ServiceImplTest" name="getAllOrganizations" time="0.501"/>
+  <testcase classname="com.sg.superherosightings.service.ServiceImplTest" name="addUpdateOrganization" time="0.338"/>
+  <testcase classname="com.sg.superherosightings.service.ServiceImplTest" name="addGetLocation" time="0.251"/>
+  <testcase classname="com.sg.superherosightings.service.ServiceImplTest" name="addGetMember" time="0.258"/>
+  <testcase classname="com.sg.superherosightings.service.ServiceImplTest" name="addUpdateLocation" time="0.22"/>
+  <testcase classname="com.sg.superherosightings.service.ServiceImplTest" name="addUpdateMember" time="0.327"/>
+  <testcase classname="com.sg.superherosightings.service.ServiceImplTest" name="addGetPower" time="0.467"/>
+  <testcase classname="com.sg.superherosightings.service.ServiceImplTest" name="getAllLocations" time="0.402"/>
+  <testcase classname="com.sg.superherosightings.service.ServiceImplTest" name="addUpdateAddress" time="0.245"/>
+  <testcase classname="com.sg.superherosightings.service.ServiceImplTest" name="deleteHero" time="0.185"/>
+  <testcase classname="com.sg.superherosightings.service.ServiceImplTest" name="addGetHero" time="0.225"/>
+  <testcase classname="com.sg.superherosightings.service.ServiceImplTest" name="getAllMembers" time="0.239"/>
+</testsuite>
