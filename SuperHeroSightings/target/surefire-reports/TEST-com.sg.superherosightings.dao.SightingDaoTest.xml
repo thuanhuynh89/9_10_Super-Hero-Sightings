@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="4" failures="0" name="com.sg.superherosightings.dao.SightingDaoTest" time="0.682" errors="0" skipped="0">
+<testsuite tests="4" failures="0" name="com.sg.superherosightings.dao.SightingDaoTest" time="1.124" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_131\jre\bin"/>
     <property name="java.vm.version" value="25.131-b11"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="C:\Users\Thuan\Documents\GitHub\Software-Guild-Presentation\GitHubRepository\9_10_Super Hero Sightings\SuperHeroSightings"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\Thuan\Documents\GitHub\9_10_Super-Hero-Sightings\SuperHeroSightings"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=";"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="C:\Users\Thuan\Documents\GitHub\Software-Guild-Presentation\GitHubRepository\9_10_Super Hero Sightings\SuperHeroSightings"/>
+    <property name="user.dir" value="C:\Users\Thuan\Documents\GitHub\9_10_Super-Hero-Sightings\SuperHeroSightings"/>
     <property name="java.runtime.version" value="1.8.0_131-b11"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_131\jre\lib\endorsed"/>
@@ -64,8 +64,8 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="com.sg.superherosightings.dao.SightingDaoTest" name="deleteSighting" time="0"/>
-  <testcase classname="com.sg.superherosightings.dao.SightingDaoTest" name="addGetSighting" time="0.036"/>
-  <testcase classname="com.sg.superherosightings.dao.SightingDaoTest" name="addUpdateSighting" time="0.28"/>
-  <testcase classname="com.sg.superherosightings.dao.SightingDaoTest" name="getAllSightings" time="0.366"/>
+  <testcase classname="com.sg.superherosightings.dao.SightingDaoTest" name="deleteSighting" time="0.211"/>
+  <testcase classname="com.sg.superherosightings.dao.SightingDaoTest" name="addGetSighting" time="0.434"/>
+  <testcase classname="com.sg.superherosightings.dao.SightingDaoTest" name="addUpdateSighting" time="0.234"/>
+  <testcase classname="com.sg.superherosightings.dao.SightingDaoTest" name="getAllSightings" time="0.245"/>
 </testsuite>
