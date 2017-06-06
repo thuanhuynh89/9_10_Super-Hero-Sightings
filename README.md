@@ -9,6 +9,6 @@ java jdk, oracle-java8-installer - http://www.oracle.com/technetwork/java/javase
 
 netbeans ide, java ee bundle, lastest version - https://netbeans.org/downloads/
 
-apache tomcat - google and download Tomcat 8.5.11 zip file -- **Make sure you have a server working on Netbeans to run program, not sure if other servers would work or not, never tested it out**
+apache tomcat - google and download Tomcat 8.5.11 zip file -- **Make sure you have the server working on Netbeans to run program, not sure if other servers would work or not, never tested it out**
 
-mysql-installer-community-latest version -  **I only needed installed the MySQL Server and MySQL Workbench**
+mysql-installer-community-latest version -  **I only needed to install the MySQL Server and MySQL Workbench**
